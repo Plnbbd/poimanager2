@@ -10,7 +10,8 @@ import org.springframework.web.bind.annotation.RestController;
 import com.poimanager.poimanager.model.Category;
 import com.poimanager.poimanager.service.CategoryService;
 
-@CrossOrigin(origins = "http://localhost:4200")
+//@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "joyful-cucurucho-727ab9.netlify.app")
 @RestController
 @RequestMapping("/api/categories")
 public class CategoryController {
