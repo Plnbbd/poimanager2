@@ -12,7 +12,7 @@ import com.poimanager.poimanager.model.POI;
 import com.poimanager.poimanager.service.POIService;
 
 // @CrossOrigin(origins = "http://localhost:4200")
- @CrossOrigin(origins = "joyful-cucurucho-727ab9.netlify.app")
+ @CrossOrigin(origins = "https://joyful-cucurucho-727ab9.netlify.app")
 @RestController
 @RequestMapping("/api/pois")
 public class POIController {
